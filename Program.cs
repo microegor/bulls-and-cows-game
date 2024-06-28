@@ -4,13 +4,15 @@
     {
         int hod = 0;
         int[] randomNumberArray = GenerateUniqueFourDigitNumberArray();
-        Console.WriteLine("Я загадал число попробуй его отгадать.");
+        Console.WriteLine("Добро пожаловать в игру Быки и Коровы!");
+        Console.WriteLine("Я загадал случайное четырехзначное число с уникальными цифрами.");
+        Console.WriteLine("Попробуйте угадать его.");
         // Console.WriteLine($"{randomNumberArray[0]}{randomNumberArray[1]}{randomNumberArray[2]}{randomNumberArray[3]}");
         while (true)
         {
             int cow = 0;
             int bull = 0;
-            Console.Write("Введите число: ");
+            Console.Write("Введите ваше предположение: ");
             hod += 1;
             string choice = Console.ReadLine();
 
